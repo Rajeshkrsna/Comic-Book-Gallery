@@ -12,7 +12,7 @@ namespace Comic_Books_Gallery.Controllers
      
         public ActionResult Details()
         {
-            return Content("Hello from comic-books-gallery");
+            return View();
         }
         public  ActionResult Index()
         {
