@@ -9,9 +9,14 @@ namespace Comic_Books_Gallery.Controllers
     public class ComicBooksController : Controller
     {
         // GET: ComicBooks
-        public ActionResult Index()
+     
+        public ActionResult Details()
         {
-            return View();
+            return Content("Hello from comic-books-gallery");
+        }
+        public  ActionResult Index()
+        {
+            return Redirect("/comicbooks/Details");
         }
     }
 }
